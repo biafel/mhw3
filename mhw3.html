@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>SoundTrip</title>
+        <link rel="stylesheet" href="mhw3.css">
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i|Open+Sans:400,700" rel="stylesheet">
+        <script src="mhw3.js" defer="true" ></script>
+    </head>
+    <body>
+    <header>
+        <div id="overlay"></div>
+        <nav>
+            <div id="titolo">
+                <img class="logo" src="Logo.png"/>
+                SoundTrip  
+            </div>
+            <div id="links">
+                <a href="mhw1.html">Home</a>
+                <a href="mhw1.html">La tua libreria</a>
+                <a href="mhw1.html">Passa a premium</a>
+                <a href="mhw1.html" class="button">Accedi/Registrati</a>
+            </div>
+        </nav>
+
+        <h1>
+            <em>Novità: Ultimi album 2022!</em><br/>
+            <strong>C'è tutto un suono intorno</strong><br/>
+            <a class="button">Inizia subito la prova gratuita</a>    
+        </h1>
+    </header>
+    <section> <!--Questo si mette sempre tra header e footer-->
+     <h1> Milioni di brani solo per te</h1>
+    <article>
+     <form id="ricerca"> 
+        <input id='brano' placeholder='Inserisci il nome di un brano che vuoi cercare' type='search' >
+        <input id="submit" type="submit"  value="Cerca">
+     </form>
+    </article>
+
+    <div id="cover"> 
+    </div>
+    
+     <div id="flex-container">
+        <div class="flex-item">
+            <img src="Top 10 Italia.png" />
+            <h1>Top 10 Album Italia</h1>
+            <p>
+              Voglia di ballare? 
+              Ecco a te una 
+              playlist tutta italiana per scatenarti un po'!        
+            </p>
+        </div>
+        <div class="flex-item">
+            <img src="Release Radar.png" />
+            <h1>Release Radar</h1>
+            <p>
+            Ascolta tutti gli ultimi brani degli artisti che segui e i nuovi singoli 
+            scelti per te. </p>
+
+        </div>
+        <div class="flex-item">
+            <img src="hot hits.jpg" />
+            <h1>Hot Hits</h1>
+            <p>
+            La playlist del momento!<br>
+            Copertina: Luca Patané</p>
+        </div>
+        <div class="flex-item">
+            <img src="Top 10 Globale.png" />
+            <h1>Top 10 Album Globale</h1>
+            <p>
+              Il tuo aggiornamento quotidiano sugli album più <br>ascoltati in questo momento. Around the world!
+            </p>      
+        </div>
+    </div>
+
+    <form id="testo"> 
+        <h1>Cerca la lyrics di una canzone</h1>
+        <input placeholder='Inserisci il nome di un artista' type='search' id='nome_artista'>
+        <input placeholder='Inserisci il nome del brano' type='search' id='nome_brano'>
+        <br>
+        <input type="button" id="submit" value="Cerca">
+        <p id="text_lyrics"></p>
+     </form>
+
+    </section>
+    <footer>
+     <address>
+         Bianca Felis<br>
+         1000001839
+     </address>
+    </footer>
+    </body>
+</html>
